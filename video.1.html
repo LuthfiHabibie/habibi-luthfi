@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <title>Multimedia HTML 5</title>
+    <head>
+    <body>
+        <h2>Strong. One Direction</h2>
+        <button onclick="playvid()" type="button">play video</button>
+        <button onclick="pausevid()" type="button">pause video</button>
+        <button onclick="durasi"type="button">Video Duration</button>
+        <br>
+        <video id="myvideo" controls>
+            <source src="videoku.mp4" type="video/mp4">
+            <track src="videoku-sub.vtt" kind="subtitles" srclang="en" label="English">
+        </video>
+    </body>
+    <script>
+        var vid = document. getElementById("myvideo");
+
+        function playvid(){
+            vid.play();
+        }
+
+        function pausevid(){
+            vid.pause();
+        }
+        </script>
+            
+        </video>        
+</html>
